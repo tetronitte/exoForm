@@ -1,0 +1,68 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+textarea {
+    resize: none;
+    border: solid black 1px;
+}
+.row-form,.area-img {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+#birthday {
+    height: 30px;
+}
+label {
+    margin-right: 15px;
+    font-weight: bold;
+}
+.area {
+    display: flex;
+    flex-direction: column;
+}
+.panneau-deroulant-1,.panneau-deroulant-2,.panneau-deroulant-3,.panneau-deroulant-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+.panneau-deroulant-1 {
+    height: 280px;
+}
+.panneau-deroulant-4 {
+    margin-bottom: 25px;
+}
+.row-title {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #495057;
+    color: white;
+    font-weight: bold;
+}
+.title-panneau {
+    width: 93.97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+}
+.arrow-down,.arrow-up {
+    width: 6.03%;
+}
+
+.submit {
+    background-color: #495057;
+    color: white;
+    font-weight: bold;
+    border: black solid 2px;
+    height: 50px;
+    width: 200px;
+    font-size: x-large;
+    margin-bottom: 25px;
+}
